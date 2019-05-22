@@ -29,7 +29,7 @@ export default {
       }, {
         id: '0002',
         imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/f0f00d6dfe038c044dbc9a437f58b0eb.png',
-        desc: '滑雪'
+        desc: '滑雪滑雪滑雪滑雪滑雪滑雪滑雪滑雪滑雪'
       }, {
         id: '0003',
         imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/f0f00d6dfe038c044dbc9a437f58b0eb.png',

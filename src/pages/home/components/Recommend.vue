@@ -10,7 +10,6 @@
         <div class="item-info">
           <p class="item-title">{{item.name}}</p>
           <p class="item-desc">{{item.price}}</p>
-          <button class="item-button">查看详情</button>
         </div>
       </li>
     </ul>
@@ -59,13 +58,16 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  @import '~styles/mixins.styl'
   .container
     margin-top: .3rem
+    margin-bottom: .3rem
     .recommend-title
       width: 0.5rem
       height: 1.0rem
       display: inline
       margin-left: .4rem
+      font-size: 0.35rem
     .border-right
       margin-right: .4rem
       float: right
@@ -92,15 +94,12 @@ export default {
           height: 1rem
           text-align: center
           .item-title
-            hight: 0.2rem
-            font-size: 0.1rem
-            line-height: 0.2rem
-          .item-desc
             hight: 0.4rem
             font-size: 0.3rem
             line-height: 0.4rem
-          .item-button
-            hight: 0.2rem
-            font-size: 0.15rem
-            line-height: 0.2rem
+            ellipsis()
+          .item-desc
+            hight: 0.6rem
+            font-size: 0.5rem
+            line-height: 0.6rem
 </style>
